@@ -1,0 +1,15 @@
+{
+  "candidate": {
+    "identifier": "candidate_synthetic_min",
+    "experience_years": 4.5
+  },
+  "location": {
+    "country": "India"
+  },
+  "capabilities": {
+    "primary_domains": ["DevSecOps", "Platform Engineering"]
+  },
+  "role_preferences": {
+    "primary": ["Senior DevSecOps Engineer", "Senior DevOps Engineer"]
+  }
+}

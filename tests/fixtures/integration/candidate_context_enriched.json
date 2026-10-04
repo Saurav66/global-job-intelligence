@@ -1,0 +1,46 @@
+{
+  "candidate": {
+    "identifier": "candidate_synthetic_enr",
+    "experience_years": 5.0
+  },
+  "location": {
+    "country": "India",
+    "timezone": "Asia/Kolkata"
+  },
+  "employment_preferences": {
+    "remote_preference": "REMOTE_ONLY"
+  },
+  "compensation": {
+    "minimum": 130000.0,
+    "target": 160000.0,
+    "currency": "USD",
+    "period": "ANNUAL"
+  },
+  "capabilities": {
+    "primary_domains": ["AI Infrastructure", "Platform Engineering"],
+    "cloud": ["AWS", "GCP"],
+    "containers": ["Kubernetes", "Docker"],
+    "iac": ["Terraform"]
+  },
+  "capability_confidence": {
+    "AWS": "CORE",
+    "Kubernetes": "CORE",
+    "Terraform": "CORE",
+    "Python": "STRONG",
+    "vLLM": "WORKING"
+  },
+  "resume_variants": [
+    {
+      "id": "ai_platform_senior",
+      "label": "Senior AI Platform Track",
+      "focus": "Model serving & GPU orchestration"
+    }
+  ],
+  "role_preferences": {
+    "primary": ["AI Platform Engineer", "Senior DevSecOps Engineer"]
+  },
+  "search_preferences": {
+    "target_geographies": ["REMOTE_GLOBAL", "REMOTE_INDIA"],
+    "target_role_families": ["AI_INFRASTRUCTURE", "SECURITY_INFRASTRUCTURE"]
+  }
+}

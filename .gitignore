@@ -1,0 +1,64 @@
+# Configuration and secrets
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+*.pem
+*.key
+*.token
+
+# Candidate private profiles and resumes
+# Note: Candidate-specific private context, resumes, and contact info must live in the Manus Project, NOT in this public repository.
+candidate_private.*
+candidate-profile-private.*
+/candidate_context.json
+/candidate_context.yaml
+/candidate_context.md
+candidate_context_private.*
+*.pdf
+*.docx
+*.doc
+
+# Explicitly preserve reference, template, and test files
+!references/candidate_context.md
+!templates/candidate_context.example.md
+!templates/candidate_context.example.json
+!tests/fixtures/integration/**
+
+# Master data and runtime run outputs
+jobs.csv
+jobs.json
+job_master*
+job_master.jsonl
+JOB_MASTER_TABLE*
+RUN_MANIFEST.json
+*.jobdata.jsonl
+runtime/
+*.sqlite
+*.db
+output/
+data/private/
+reports/runtime/
+
+# Preserve test fixtures
+!tests/fixtures/**
+
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system and editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

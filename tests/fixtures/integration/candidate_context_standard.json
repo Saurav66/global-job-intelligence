@@ -1,0 +1,29 @@
+{
+  "candidate": {
+    "identifier": "candidate_synthetic_std",
+    "experience_years": 4.5
+  },
+  "location": {
+    "country": "India",
+    "timezone": "Asia/Kolkata"
+  },
+  "employment_preferences": {
+    "remote_preference": "REMOTE_ONLY"
+  },
+  "capabilities": {
+    "primary_domains": ["DevSecOps", "Platform Engineering"],
+    "cloud": ["AWS", "GCP"],
+    "containers": ["Kubernetes", "Docker", "Helm"],
+    "iac": ["Terraform"]
+  },
+  "resume_variants": [
+    {
+      "id": "devsecops_senior",
+      "label": "Senior DevSecOps Track",
+      "focus": "Kubernetes & CI/CD Security"
+    }
+  ],
+  "role_preferences": {
+    "primary": ["Senior DevSecOps Engineer", "Senior Platform Engineer"]
+  }
+}
